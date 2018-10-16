@@ -1,0 +1,43 @@
+header{
+  width: 100%;
+  height: 70px;
+  background: black;
+  // display: flex;
+  position: relative;
+  .left{
+    width: 30%;
+    height: 100%;
+    background: green;
+    float: left;
+    position: relative;
+    .layer{
+      width: 100px;
+      height:165px;
+      background: white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: rotate(62deg);
+    }
+  }
+  .right{
+    width: 70%;
+    height: 100%;
+    background: white;
+    float: right;
+    text-align: right;
+    .nav_item li{
+      display: inline-block;
+      list-style: none;
+      margin: 0 3%;
+      line-height: 70px;
+    }
+    .nav_item a{
+      text-decoration: none;
+      color: #000;
+    }
+    .nav_item a:hover{
+      color: blue;
+    }
+  }
+}

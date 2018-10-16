@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#logo {
+  width: 45%;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#container-image {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+#container-image img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#container-image #layer-home {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#container-image #layer-home h2 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  line-height: 500px;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background: black;
+  position: relative;
+}
+
+header .left {
+  width: 30%;
+  height: 100%;
+  background: green;
+  float: left;
+  position: relative;
+}
+
+header .left .layer {
+  width: 100px;
+  height: 165px;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: rotate(62deg);
+          transform: rotate(62deg);
+}
+
+header .right {
+  width: 70%;
+  height: 100%;
+  background: white;
+  float: right;
+  text-align: right;
+}
+
+header .right .nav_item li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 3%;
+  line-height: 70px;
+}
+
+header .right .nav_item a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .right .nav_item a:hover {
+  color: blue;
+}
+
+#container-main {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#container-main .bgk-post {
+  width: 350px;
+  height: 300px;
+  margin-top: 20px;
+  position: relative;
+}
+
+#container-main .bgk-post img {
+  width: 100%;
+  height: 100%;
+}
+
+#container-main .post {
+  width: 350px;
+  height: auto;
+  padding: 0 5%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+
+#container-main .post a {
+  color: red;
+  text-decoration: none;
+}
+
+#container-main .post a:hover {
+  color: blue;
+}
+
+#container-footer {
+  width: 100%;
+  height: 70px;
+  background: #000;
+  margin-top: 20px;
+}
+
